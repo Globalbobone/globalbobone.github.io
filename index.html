@@ -6,12 +6,25 @@
     <meta name="description" content=" FILL ME IN ">
     <meta name="author" content=" FILL ME IN ">
     <title>Cameron Pittman: Portfolio</title>
-    <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
-    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet">  хотя не приветствуеться конечно в теле  HTML-->
     <link href="css/print.css" rel="stylesheet" media="print">
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <script async src="js/perfmatters.js"></script>
+    <style>@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:rgba(0,0,0,0);-ms-text-size-adjust:100%;-webkit-text-size-adjust:none}body{margin:0;font-size:14px;line-height:1.61;background:#fff}body,header p span{font-weight:400}body,textarea,input,select,button{font-family:'Open Sans',sans-serif;color:#333}a{color:#12C}a:visited{color:#61C}a:focus{outline:thin dotted}img{border:0;max-width:100%}header,footer,.container{max-width:45em;margin:0 auto}header,footer{padding:0 .5em}header{color:#C90B0B}header img{border-radius:40px}header img,li img{float:left}header p{font-size:1.5em;padding-left:4em}header p,strong,b{font-weight:700}header p span{font-size:.8em}.content{padding:1em}.content li{list-style-type:none;font-size:1.1em}li img{padding-right:1em}li p{font-size:.9em}li p,footer span{font-style:italic}footer span{float:right}a:active,a:hover{color:#c00;outline:0}code,pre{font-family:monospace,monospace;font-size:1em}ol,ul{margin:1em 0;padding:0 0 0 20px}footer,.hero{border-top:1px solid #ccc}.hero{padding:2em;background-color:#f8f8f8;font-size:1.2em;border-bottom:1px solid #ccc}@media only screen and (max-width:480px){body{font-size:12px}header p{padding-left:4.5em}}</style>
   </head>
   <body>
     <header>
@@ -60,6 +73,6 @@
 			ga('create', 'UA-XXXXX-Y', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<script async src='https://www.google-analytics.com/analytics.js'></script>
-  </body>
+   <!-- <script async src='https://www.google-analytics.com/analytics.js'></script>-->
+		</body>
 </html>
